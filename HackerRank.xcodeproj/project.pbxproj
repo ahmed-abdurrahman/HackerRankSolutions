@@ -23,6 +23,8 @@
 		C8B98AEB1DE8BFBC0051EC1F /* 02.MakingAnagaramsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B98AEA1DE8BFBC0051EC1F /* 02.MakingAnagaramsTests.swift */; };
 		E210A79C1E90FFF600A687AD /* 01.LeftRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210A79B1E90FFF600A687AD /* 01.LeftRotation.swift */; };
 		E210A7A11E9118FD00A687AD /* 01.LeftRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210A7A01E9118FD00A687AD /* 01.LeftRotationTests.swift */; };
+		E210A7A31E91255600A687AD /* 05.BalancedBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210A7A21E91255600A687AD /* 05.BalancedBrackets.swift */; };
+		E210A7A51E9125DB00A687AD /* 05.BalancedBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210A7A41E9125DB00A687AD /* 05.BalancedBrackets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		C8B98AEA1DE8BFBC0051EC1F /* 02.MakingAnagaramsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 02.MakingAnagaramsTests.swift; path = ../02.MakingAnagaramsTests.swift; sourceTree = "<group>"; };
 		E210A79B1E90FFF600A687AD /* 01.LeftRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 01.LeftRotation.swift; sourceTree = "<group>"; };
 		E210A7A01E9118FD00A687AD /* 01.LeftRotationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 01.LeftRotationTests.swift; sourceTree = "<group>"; };
+		E210A7A21E91255600A687AD /* 05.BalancedBrackets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 05.BalancedBrackets.swift; sourceTree = "<group>"; };
+		E210A7A41E9125DB00A687AD /* 05.BalancedBrackets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 05.BalancedBrackets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,7 @@
 				E210A7A01E9118FD00A687AD /* 01.LeftRotationTests.swift */,
 				C8B4E9D21E30B59D00770A4C /* 03.RansomNoteTests.swift */,
 				C8B98AEA1DE8BFBC0051EC1F /* 02.MakingAnagaramsTests.swift */,
+				E210A7A41E9125DB00A687AD /* 05.BalancedBrackets.swift */,
 			);
 			name = CrackingTheCodeInterviewTests;
 			path = CrackingTheCodeInterview;
@@ -180,6 +185,7 @@
 				E210A79B1E90FFF600A687AD /* 01.LeftRotation.swift */,
 				C8B98AE71DE8BF3B0051EC1F /* 02.MakingAnagarams.swift */,
 				C8B4E9CF1E30B55C00770A4C /* 03.RansomNote.swift */,
+				E210A7A21E91255600A687AD /* 05.BalancedBrackets.swift */,
 			);
 			path = CrackingTheCodeInterview;
 			sourceTree = "<group>";
@@ -354,6 +360,7 @@
 				C8B98AE81DE8BF3B0051EC1F /* 02.MakingAnagarams.swift in Sources */,
 				C8B4E9D01E30B55C00770A4C /* 03.RansomNote.swift in Sources */,
 				E210A79C1E90FFF600A687AD /* 01.LeftRotation.swift in Sources */,
+				E210A7A31E91255600A687AD /* 05.BalancedBrackets.swift in Sources */,
 				C885C6B51DE5B78100665247 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +371,7 @@
 			files = (
 				C8B98AEB1DE8BFBC0051EC1F /* 02.MakingAnagaramsTests.swift in Sources */,
 				C8B4E9D11E30B58B00770A4C /* 03.RansomNote.swift in Sources */,
+				E210A7A51E9125DB00A687AD /* 05.BalancedBrackets.swift in Sources */,
 				C8B98AE91DE8BF970051EC1F /* 02.MakingAnagarams.swift in Sources */,
 				E210A7A11E9118FD00A687AD /* 01.LeftRotationTests.swift in Sources */,
 				C8B4E9D31E30B59D00770A4C /* 03.RansomNoteTests.swift in Sources */,
