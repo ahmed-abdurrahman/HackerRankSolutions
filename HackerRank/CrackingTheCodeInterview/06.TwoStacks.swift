@@ -14,13 +14,6 @@ class Queue<T> {
     var oldestFirstStack = [T]()
     var newestFirstStack = [T]()
     
-    
-    private func moveElementsToNewest() {
-        while !oldestFirstStack.isEmpty {
-            newestFirstStack.append(oldestFirstStack.popLast()!)
-        }
-    }
-    
     private func moveElementsToOldest() {
         while !newestFirstStack.isEmpty {
             oldestFirstStack.append(newestFirstStack.popLast()!)
@@ -28,17 +21,16 @@ class Queue<T> {
     }
     
     func enquque(element: T) {
-        // Enqueue operation is done in O(2n)
-        moveElementsToNewest()
         newestFirstStack.append(element)
-        moveElementsToOldest()
     }
     
     @discardableResult func dequeue() -> T? {
+        moveElementsToOldest()
         return oldestFirstStack.popLast()
     }
     
     func printHead(){
+        moveElementsToOldest()
         print(oldestFirstStack.last ?? "")
     }
 }
